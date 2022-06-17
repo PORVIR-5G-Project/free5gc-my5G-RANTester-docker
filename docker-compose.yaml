@@ -1,7 +1,8 @@
 version: '3.8'
 services:
   my5grantester:
-    image: my5grantester:latest
+    build:
+      context: ./nf_tester
     container_name: my5grantester
     privileged: true
     command: ./app ue
