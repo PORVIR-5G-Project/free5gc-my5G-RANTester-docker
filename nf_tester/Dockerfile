@@ -2,6 +2,8 @@ FROM golang:1.14.4-stretch
 
 WORKDIR /workspace
 
+COPY my5G-RANTester my5G-RANTester/
+
 RUN cd my5G-RANTester  \
     && go mod download 
     
