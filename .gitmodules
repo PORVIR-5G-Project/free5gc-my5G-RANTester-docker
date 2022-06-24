@@ -1,3 +1,4 @@
-[submodule "nf_tester/my5G-RANTester"]
-	path = nf_tester/my5G-RANTester
+[submodule "my5G-RANTester"]
+	path = my5G-RANTester
 	url = https://github.com/gabriel-lando/my5G-RANTester.git
+	branch = master
