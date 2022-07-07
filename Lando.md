@@ -6,6 +6,4 @@
 
 3. Run: `git submodule update --remote` 
 
-4. Run: `docker build -f Dockerfile --tag my5grantester:latest .`
-
-5. Run: `docker compose up -d`
+4. Run: `docker compose up --build -d`
